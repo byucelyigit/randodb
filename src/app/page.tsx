@@ -118,10 +118,10 @@ export default function Home() {
         <CardContent className="flex flex-col items-center space-y-4">
           <div className="text-5xl font-bold">{randomNumber !== null ? randomNumber : "Generate a number"}</div>
           <div className="flex space-x-4">
-            <Button onClick={generateRandomNumber} variant="accent">
+            <Button onClick={generateRandomNumber}>
               Generate
             </Button>
-            <Button onClick={handleSaveToDatabase} variant="primary">
+            <Button onClick={handleSaveToDatabase}>
               Save to Database
             </Button>
           </div>
