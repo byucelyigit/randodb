@@ -20,7 +20,7 @@ async function writeToDatabase(randomNumber: number, toast: any) {
     console.log("Document written with ID: ", docRef?.id);
     toast({
       title: "Number saved!",
-      description: `Number ${randomNumber} saved to database.`,
+      description: `Number ${randomNumber} saved to database. :)`,
     });
   } catch (e: any) {
     console.error("Error adding document: ", e);
